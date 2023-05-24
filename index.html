@@ -27,7 +27,10 @@
       }
 
       .accordion::-webkit-scrollbar-track {
-        background-color: #f1f1f1; /* Set the color of the scrollbar track */
+        background-color: #f1f1f1;
+      }
+      .accordion-button:after {
+        background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
       }
     </style>
 
@@ -83,7 +86,7 @@
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button
-                class="accordion-button"
+                class="accordion-button text-light bg-dark"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseOne"
@@ -120,7 +123,7 @@
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button
-                class="accordion-button collapsed"
+                class="accordion-button collapsed text-light bg-dark"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseTwo"
@@ -168,7 +171,7 @@
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button
-                class="accordion-button collapsed"
+                class="accordion-button collapsed text-light bg-dark"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseThree"
@@ -217,7 +220,7 @@
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button
-                class="accordion-button collapsed"
+                class="accordion-button collapsed text-light bg-dark"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseFour"
